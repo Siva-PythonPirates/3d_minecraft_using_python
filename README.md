@@ -83,3 +83,22 @@ The play zone is confined . If you fall apart, !!  FLY FLY TO REACH HOME  !!
 -------------------------------------------------------------------------------------------------------------------------------------------------
 
 ----------------------------------------------------------HAPPY GAMING WITH  PYTHON---------------------------------------------------------------
+
+
+
+s=0
+for i in range(1,int(input('Enter limit :'))):
+    s+=i
+print(s)
+print('----------------------------------')
+for i in range(1,int(input('Enter limit :'))):
+    if i%2==0 :print(i)
+print('----------------------------------')
+a=int(input('Enter a no :'))
+for i in range(1,int(input('Enter limit :'))):
+    print(a*i)
+print('----------------------------------')
+f=1
+for i in range(1,int(input('Enter no :'))+1):
+    f*=i
+print('Factorial is {}'.format(f))
